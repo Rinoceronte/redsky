@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background: mediumblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+header {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    color: mediumblue;
+    background: red;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    height: 150px;
+    width: 150px;
+}
+
+.create {
+    margin-top: 2%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 40% 40%;
+    justify-items: center;
+}
+
+.create img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    transform: translateX(125%);
+}
+
+input {
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 0 10px;
+    
+}
+
+.create button {
+    width: 100px;
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    place-self: center;
+    transform: translateX(200%);
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+}
+
+.user {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.editUser {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.editUser section {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.pages-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pages-navigation section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
